@@ -4,22 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyectos Android 2023</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
+    <style>
+        .project-image {
+            max-height: 200px; /* Ajusta esta altura según tus necesidades */
+            object-fit: cover;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Proyectos Android 2023</h1>
+    <header class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <h1>Proyectos Android 2023</h1>
+        </div>
     </header>
-    <main>
-        <section class="project">
-            <img src="proyectos/proyecto1.jpg" alt="Proyecto 1">
-            <div class="project-info">
-                <h2>Nombre del Proyecto 1</h2>
-                <p>Descripción breve del proyecto...</p>
-                <p>Equipo: Nombre del Equipo</p>
+    <main class="container mt-5">
+        <div class="row justify-content-center vw-100">
+            <!-- Proyecto del Grupo 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="img/heroes1/heroes.png" class="card-img-top project-image" alt="SuperHeroes Info">
+                    <div class="card-body">
+                        <h2 class="card-title">SuperHeroes Info</h2>
+                        <p class="card-text">Grupo: Code nic</p>
+                        <a href="detalle-proyecto-superheroes-info.html" class="btn btn-primary">Ver detalles</a>
+                        <a href="https://drive.google.com/file/d/1DHjZiguBY86pMsNHl5lKhfn5XIqp1suz/view" class="btn btn-success" target="_blank">Descargar APK</a>
+                    </div>
+                </div>
             </div>
-        </section>
-        <!-- Repite este bloque para cada proyecto -->
+            <!-- Repite este bloque para cada proyecto -->
+
+            <!-- Proyecto del Grupo "El nuevo tercer mundo" -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="img/wikigame/video-game-banner.jpg" class="card-img-top project-image" alt="Wiki Game">
+                    <div class="card-body">
+                        <h2 class="card-title">Wiki Game</h2>
+                        <p class="card-text">Grupo: El nuevo tercer mundo</p>
+                        <a href="detalle-proyecto-wiki-game.html" class="btn btn-primary">Ver detalles</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Repite este bloque para cada proyecto -->
+
+
+
+
+
+
+
+
+
+            <!-- Proyecto "App de Superhéroes de Marvel" -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="img/marvelapp/marvel.png" class="card-img-top project-image" alt="App de Superhéroes de Marvel">
+                    <div class="card-body">
+                        <h2 class="card-title">Personajes de Marvel</h2>
+                        <p class="card-text">Grupo: Team Professor</p>
+                        <a href="detalle-proyecto-marvelapp.html" class="btn btn-primary">Ver detalles</a>
+                        <a href="https://github.com/daviddagb2/MarvelHeroes/raw/master/Apk/MarvelHeroes.apk" class="btn btn-success" target="_blank">Descargar APK</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Repite este bloque para cada proyecto -->
+
+
+        </div>
     </main>
+    <script src="bootstrap.min.js"></script>
 </body>
 </html>

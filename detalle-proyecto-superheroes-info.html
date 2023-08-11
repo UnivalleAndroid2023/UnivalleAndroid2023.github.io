@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalle del Proyecto - SuperHeroes Info</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .project-image {
+            max-height: 400px; /* Ajusta esta altura según tus necesidades */
+            object-fit: cover;
+        }
+
+        .phone-frame {
+            height: auto;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+            background-color: white;
+            text-align: center;
+            max-width: 210px;
+            margin: 0 auto;
+        }
+
+        .gallery-image {
+            max-width: 100%;
+            height: auto;
+            object-fit: contain;
+        }
+    </style>
+</head>
+<body>
+    <header class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <h1><a href="index.html" class="text-white text-decoration-none">Proyectos Android 2023</a></h1>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <div class="row">
+            <div class="col-md-8">
+                <h1>SuperHeroes Info</h1>
+                <p>
+                    Nuestro proyecto final está pensado para ser una app que brinde información a sus usuarios sobre sus superhéroes favoritos, con datos y estadísticas. También tenemos un apartado de películas donde se puede ver información relevante sobre películas o series. Dicha información se obtiene consumiendo dos APIs: SuperHeroAPI y TMDB.
+                    A futuro, planeamos agregar más categorías de información y aumentar el consumo de APIs. La app cuenta con una pantalla principal que contiene un menú para acceder a la API deseada, y una pantalla de búsqueda que muestra resultados y permite seleccionar un superhéroe para ver más detalles.
+                </p>
+                <p><strong>Equipo: Code nic</strong></p>
+                <ul>
+                    <li>Jorge Hernández López</li>
+                    <li>Josué Cárcamo Torrez</li>
+                    <li>Luis Ariel Cuadra Salinas</li>
+                    <li>Michael Velazquez Sanchez</li>
+                </ul>
+                <a href="https://drive.google.com/file/d/1DHjZiguBY86pMsNHl5lKhfn5XIqp1suz/view" class="btn btn-success" target="_blank">Descargar APK</a>
+                <a href="index.html" class="btn btn-secondary">Volver a la lista de proyectos</a>
+            </div>
+            <div class="col-md-4">
+                <div class="phone-frame">
+                    <img src="img/heroes1/1.jpg" class="img-fluid project-image" alt="Grupo Code nic">
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-12">
+                <h2>Galería de Fotos</h2>
+                <div class="row">
+                    <div class="col-md-3 mb-4">
+                        <img src="img/heroes1/1.jpg" class="gallery-image" alt="SuperHeroes Info">
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <img src="img/heroes1/2.jpg" class="gallery-image" alt="SuperHeroes Info">
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <img src="img/heroes1/3.jpg" class="gallery-image" alt="SuperHeroes Info">
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <img src="img/heroes1/4.jpg" class="gallery-image" alt="SuperHeroes Info">
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <img src="img/heroes1/5.jpg" class="gallery-image" alt="SuperHeroes Info">
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <img src="img/heroes1/6.jpg" class="gallery-image" alt="SuperHeroes Info">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="bootstrap.min.js"></script>
+</body>
+</html>

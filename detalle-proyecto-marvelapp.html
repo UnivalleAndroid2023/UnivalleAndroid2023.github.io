@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalle del Proyecto - App de Superhéroes de Marvel</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .project-image {
+            max-height: 400px; /* Ajusta esta altura según tus necesidades */
+            object-fit: cover;
+        }
+
+        .phone-frame {
+            height: auto;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+            background-color: white;
+            text-align: center;
+            max-width: 210px;
+            margin: 0 auto;
+        }
+
+        .gallery-image {
+            max-width: 100%;
+            height: auto;
+            object-fit: contain;
+        }
+    </style>
+</head>
+<body>
+    <header class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <h1><a href="index.html" class="text-white text-decoration-none">Proyectos Android 2023</a></h1>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <div class="row">
+            <div class="col-md-8">
+                <h1>App de Superhéroes de Marvel</h1>
+                <p>
+                    Este proyecto tiene como objetivo proporcionar una aplicación de muestra que muestra una lista de superhéroes de Marvel y su información detallada utilizando la API de Marvel. La aplicación está construida utilizando la arquitectura MVVM (Modelo-Vista-Modelo de Vista) y Jetpack Compose, una biblioteca moderna de IU de Android que simplifica el desarrollo de interfaces de usuario dinámicas y atractivas.
+                </p>
+                <p>
+                    El proyecto está construido siguiendo Clean Architecture, lo que permite separar adecuadamente las responsabilidades y mejorar la escalabilidad del código. Para consumir la API de Marvel, se utiliza Retrofit, una biblioteca de cliente HTTP que simplifica el consumo de API. Además, se implementa un patrón de repositorio para gestionar los datos y separar la capa de datos de la capa de presentación.
+                </p>
+                <p>
+                    La aplicación ofrece una experiencia de usuario fluida y atractiva al mostrar la información detallada de los superhéroes y permitir a los usuarios explorar el vasto universo de Marvel de manera sencilla y eficiente.
+                </p>
+                <p><strong>Equipo: David Antonio Gonzalez Blanchard</strong></p>
+                <a href="https://github.com/daviddagb2/MarvelHeroes/blob/master/Apk/MarvelHeroes.apk" class="btn btn-success" target="_blank">Descargar APK</a>
+                <a href="index.html" class="btn btn-secondary">Volver a la lista de proyectos</a>
+            </div>
+            <div class="col-md-4">
+                <div class="phone-frame">
+                    <img src="img/marvelapp/2.jpeg" class="img-fluid project-image" alt="App de Superhéroes de Marvel">
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-12">
+                <h2>Galería de Fotos</h2>
+                <div class="row">
+                    <div class="col-md-3 mb-4">
+                        <img src="img/marvelapp/1.jpeg" class="gallery-image" alt="App de Superhéroes de Marvel">
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <img src="img/marvelapp/2.jpeg" class="gallery-image" alt="App de Superhéroes de Marvel">
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <img src="img/marvelapp/3.jpeg" class="gallery-image" alt="App de Superhéroes de Marvel">
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <img src="img/marvelapp/4.jpeg" class="gallery-image" alt="App de Superhéroes de Marvel">
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <img src="img/marvelapp/5.jpeg" class="gallery-image" alt="App de Superhéroes de Marvel">
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <img src="img/marvelapp/6.jpeg" class="gallery-image" alt="App de Superhéroes de Marvel">
+                    </div>
+
+                    <div class="col-md-3 mb-4">
+                        <img src="img/marvelapp/7.jpeg" class="gallery-image" alt="App de Superhéroes de Marvel">
+                    </div>
+
+                    <div class="col-md-3 mb-4">
+                        <img src="img/marvelapp/8.jpeg" class="gallery-image" alt="App de Superhéroes de Marvel">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="bootstrap.min.js"></script>
+</body>
+</html>
