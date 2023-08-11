@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.project {
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+}
+
+.project-info {
+    padding: 10px;
+}
+
+.project h2 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.project p {
+    margin: 5px 0;
+    font-size: 0.9em;
+    color: #777;
+}
